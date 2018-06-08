@@ -1,0 +1,69 @@
+<!DOCTYPE DOCTYPE>
+<html>
+<head>
+<title>Crystal collector</title>
+<link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="asset/css/game.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="asset/javascript/game.js"></script>
+	
+<body>
+        <div id="header">
+            <h1>Crystal Collector!</h1>
+        </div>
+        
+        <div id="container">
+                <div id="row">
+                    <div class="col-md-12">
+                    <ul>
+                        <li>You will be given a random number at the start of the game.
+			            </li>
+                        <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+			            
+                        <li>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</li>
+			            
+                        <li>The value of each crystal is hidden from you until you click on it.</li>
+			            
+                        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                    </ul>
+                    </div>
+                </div>
+        </div>
+
+        <div id="row">
+            <div class="col-md-4 " id="targetvalue">
+                
+            </div>
+
+            <div class="col-md-2 " id="winloose">
+                    <p id="win">Wins:</p>
+                    <p id="lose">Losses:</p>
+            </div>
+        </div>
+
+        <div id="row">
+                <div class="col-md-8 " id="crystal">
+                        <img src="asset/images/red.jpg" id="red"  alt="Red"/>
+                        <img src="asset/images/green.png" id="green"  alt="green"/>
+                        <img src="asset/images/blue.jpg" id="blue"  alt="blue"/>
+                        <img src="asset/images/yellow.jpg" id="yellow"  alt="yellow"/>
+                
+                </div>
+        </div>
+
+        <div id="row">
+            <div class="col-sm-4">            
+                <p>Your Total Score is:</p>
+            </div>
+        </div>
+        <div id="row">
+                <div class="col-sm-4" id="totalscore">            
+                    <p>value here</p>
+                </div>
+            </div>
+    
+
+</body>
+</head>
+</html>
